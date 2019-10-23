@@ -1,0 +1,12 @@
+{
+  "header": {
+    "centre": "Title"
+  },
+  "footer": {
+    "left": "Author",
+    "right": "\u0372 Organization"
+  },
+  "fade": {
+    "delay": 10
+  }
+}
