@@ -9,6 +9,7 @@ COPY entry.sh /root/
 COPY template/* /root/template/
 
 WORKDIR /mnt
+RUN chmod -R 777 /root
 
 #ENTRYPOINT ["node","/root/vtmc/cmd/vtmc.js"]
 #CMD ["show"]
